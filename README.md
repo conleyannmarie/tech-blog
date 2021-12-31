@@ -1,36 +1,64 @@
-# Tech-Blog
+# Tech Blog
 
-## Table of Contents
+## Description 
 
-- [User Story](#user-story)
-- [Description](#description)
-- [Tools Used](#tools-used)
-- [License](#license)
-- [Video](#video-of-how-it's-used)
-- [User Story](#user-story)
-- [Author](#author)
+This is a project which was developed for the University of Arizona Coding Bootcamp course. The application contained within is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
 
-### User Story
-AS A developer who writes about tech
-I WANT a CMS-style blog site
-SO THAT I can publish articles, blog posts, and my thoughts and opinions
+## Table of Contents 
 
-### Description
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Documentation](#documentation)
 
-This is a blog used for tech information. They can login and make a blog post.
+## Usage 
 
-### Tools Used
+Clone the repo, navigate to the root folder, run the following commands from the CLI:     
 
-Javascript, mySQL, Node
+Run Test;    
+`npm run test`     
 
-### License
+Seed DB;   
+`npm run seed`     
 
-This project uses a MIT license.
+Start Server;     
+`npm start server`     
 
-### Screenshots
+## Credits
 
-## Author
+University of Arizona Coding Bootcamp Week 14 Module 14: Object-Relational Mapping.
 
-The Author is Conley Marie. Github: https://github.com/conleyannmarie
+## License
 
-###
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Documentation
+
+Live Deployed Application: [View Application](https://uabc-mvc-tech-blog.herokuapp.com/ "Live Deploy")      
+
+![Screenshot](doc/proof.png?raw=true "Proof of Application")      
+
+
+
+
+
+
+

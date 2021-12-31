@@ -1,20 +1,19 @@
-
 const { Post } = require('../models');
 
 const postData = [{
-        title: 'New Industry Secrets',
-        content: 'Whistleblower "blows" lid on whole operation',
+        title: 'Lorem Ipsum I',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         user_id: 1
 
     },
     {
-        title: 'Blog post 2',
-        content: 'All the lorem ipsum stuff',
+        title: 'Lorem Ipsum II',
+        content: 'Amet aliquam id diam maecenas ultricies mi eget mauris pharetra.',
         user_id: 2
     },
     {
-        title: 'Blog post 3',
-        content: 'lorem ipsum dolor sit amet, consectetur',
+        title: 'Lorem Ipsum III',
+        content: 'Ut etiam sit amet nisl purus in mollis.',
         user_id: 3
     }
 ];
